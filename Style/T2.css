@@ -1,0 +1,31 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  max-width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+li a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 12px 15px;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #e0e0e0;
+}
+li:last-child a {
+  border-bottom: none;
+}
+li a:hover {
+  background-color: #e6f2ff;
+  color: #0066cc;
+}
+li a:active {
+  background-color: #cce5ff;
+}

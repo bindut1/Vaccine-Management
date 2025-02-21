@@ -1,0 +1,41 @@
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.login-container h2 {
+  text-align: center;
+}
+
+.login-container div {
+  margin-bottom: 5px;
+}
+
+#username,
+#password {
+  width: 70%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.confirm {
+  display: flex;
+  justify-content: center;
+}
+
+#password {
+  margin-left: 20px;
+}
+
+#username {
+  margin-left: 17px;
+}
+
+.ok,
+.reset {
+  margin-left: 10px;
+}
+
+body {
+  background-color: rgb(153, 234, 168);
+}

@@ -1,0 +1,29 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.a-link {
+  text-decoration: none;
+  padding: 2px 6px;
+  transition: all 0.3s ease;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.a-link:hover {
+  background-color: #27ae60;
+}
